@@ -43,7 +43,7 @@ import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EViewGroup;
 import org.androidannotations.annotations.ViewById;
 import org.autojs.autojs.Pref;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.autojs.AutoJs;
 import org.autojs.autojs.model.autocomplete.AutoCompletion;
 import org.autojs.autojs.model.autocomplete.CodeCompletion;

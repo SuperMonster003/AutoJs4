@@ -1,11 +1,10 @@
 package org.autojs.autojs.autojs;
 
 import com.stardust.app.GlobalAppContext;
-import com.stardust.autojs.engine.JavaScriptEngine;
 import com.stardust.autojs.execution.ScriptExecution;
 import com.stardust.autojs.execution.ScriptExecutionListener;
-import org.autojs.autojs.App;
-import org.autojs.autojs.R;
+
+import org.autojs.autojs4.R;
 
 /**
  * Created by Stardust on 2017/5/3.

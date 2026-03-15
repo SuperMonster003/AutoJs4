@@ -12,7 +12,7 @@ import android.util.Log;
 
 import com.stardust.app.GlobalAppContext;
 
-import org.autojs.autojs.BuildConfig;
+import org.autojs.autojs4.BuildConfig;
 import org.mozilla.javascript.RhinoException;
 
 import com.stardust.view.accessibility.AccessibilityService;

@@ -11,7 +11,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import org.autojs.autojs.R;
+
+import org.autojs.autojs4.R;
 
 import java.util.ArrayList;
 

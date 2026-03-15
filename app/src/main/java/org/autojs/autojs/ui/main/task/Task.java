@@ -10,7 +10,7 @@ import com.stardust.autojs.script.JavaScriptSource;
 import com.stardust.pio.PFiles;
 import com.stardust.util.MapBuilder;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.timing.IntentTask;
 import org.autojs.autojs.timing.TimedTask;
 import org.autojs.autojs.timing.TimedTaskManager;

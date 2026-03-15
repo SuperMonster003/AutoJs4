@@ -13,7 +13,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.ui.main.MainActivity_;
 
 public class ForegroundService extends Service {
@@ -58,7 +58,7 @@ public class ForegroundService extends Service {
         return new NotificationCompat.Builder(this, CHANEL_ID)
                 .setContentTitle(getString(R.string.foreground_notification_title))
                 .setContentText(getString(R.string.foreground_notification_text))
-                .setSmallIcon(R.drawable.autojs_material)
+                .setSmallIcon(R.drawable.autojs4_material)
                 .setWhen(System.currentTimeMillis())
                 .setContentIntent(contentIntent)
                 .setChannelId(CHANEL_ID)

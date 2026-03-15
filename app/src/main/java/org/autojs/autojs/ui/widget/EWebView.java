@@ -25,7 +25,7 @@ import android.widget.ProgressBar;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.stardust.app.OnActivityResultDelegate;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.tool.ImageSelector;
 
 import java.util.Arrays;

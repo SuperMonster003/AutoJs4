@@ -1,23 +1,17 @@
 package org.autojs.autojs.network;
 
 import android.content.Context;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
-import android.widget.Toast;
 
 import com.google.gson.GsonBuilder;
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
-import org.autojs.autojs.App;
-import org.autojs.autojs.BuildConfig;
-import org.autojs.autojs.R;
+import com.stardust.util.NetworkUtils;
+
+import org.autojs.autojs4.BuildConfig;
 import org.autojs.autojs.network.api.UpdateCheckApi;
 import org.autojs.autojs.network.entity.VersionInfo;
 import org.autojs.autojs.tool.SimpleObserver;
-import org.autojs.autojs.ui.update.UpdateInfoDialogBuilder;
-import com.stardust.util.NetworkUtils;
 
 import io.reactivex.Observable;
-import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.annotations.NonNull;
 import io.reactivex.schedulers.Schedulers;
 import retrofit2.Retrofit;
@@ -29,14 +23,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class VersionService {
 
-    private static final String KEY_DEPRECATED = "KEY_DEPRECATED";
-    private static final String KEY_DEPRECATED_VERSION_CODE = "KEY_DEPRECATED_VERSION_CODE";
-
-    private static VersionService sInstance = new VersionService();
-    private boolean mDeprecated = false;
+    private static final VersionService sInstance = new VersionService();
     private VersionInfo mVersionInfo;
-    private SharedPreferences mSharedPreferences;
-    private Retrofit mRetrofit;
+    private final Retrofit mRetrofit;
 
     public VersionService() {
         mRetrofit = new Retrofit.Builder()
@@ -56,28 +45,6 @@ public class VersionService {
         return mRetrofit.create(UpdateCheckApi.class)
                 .checkForUpdates()
                 .subscribeOn(Schedulers.io());
-    }
-
-
-    private void readDeprecatedFromPref(Context context) {
-        mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
-        if (mSharedPreferences.getInt(KEY_DEPRECATED_VERSION_CODE, 0) < BuildConfig.VERSION_CODE) {
-            mSharedPreferences.edit().remove(KEY_DEPRECATED_VERSION_CODE)
-                    .putBoolean(KEY_DEPRECATED, false)
-                    .apply();
-        }
-        mDeprecated = mSharedPreferences.getBoolean(KEY_DEPRECATED, false);
-    }
-
-
-    public void readDeprecatedFromPrefIfNeeded(Context context) {
-        if (mSharedPreferences == null) {
-            readDeprecatedFromPref(context);
-        }
-    }
-
-    public boolean isCurrentVersionDeprecated() {
-        return mDeprecated;
     }
 
     public String getCurrentVersionIssues() {
@@ -119,12 +86,6 @@ public class VersionService {
     }
 
     private void setVersionInfo(VersionInfo result) {
-        mDeprecated = BuildConfig.VERSION_CODE <= result.deprecated;
         mVersionInfo = result;
-        if (mDeprecated) {
-            mSharedPreferences.edit().putBoolean(KEY_DEPRECATED, mDeprecated)
-                    .putInt(KEY_DEPRECATED_VERSION_CODE, BuildConfig.VERSION_CODE)
-                    .apply();
-        }
     }
 }

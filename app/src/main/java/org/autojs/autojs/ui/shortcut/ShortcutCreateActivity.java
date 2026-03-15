@@ -19,7 +19,7 @@ import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.external.ScriptIntents;
 import org.autojs.autojs.external.shortcut.Shortcut;
 import org.autojs.autojs.external.shortcut.ShortcutActivity;

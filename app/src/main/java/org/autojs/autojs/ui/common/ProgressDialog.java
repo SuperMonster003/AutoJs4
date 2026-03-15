@@ -3,7 +3,7 @@ package org.autojs.autojs.ui.common;
 import android.content.Context;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 
 /**
  * Created by Stardust on 2017/7/31.

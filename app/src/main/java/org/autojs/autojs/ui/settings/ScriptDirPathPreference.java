@@ -14,7 +14,7 @@ import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.materialdialogs.prefs.MaterialEditTextPreference;
 
 import org.autojs.autojs.Pref;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.model.explorer.Explorers;
 import org.autojs.autojs.storage.file.FileObservable;
 import org.autojs.autojs.theme.dialog.ThemeColorMaterialDialogBuilder;

@@ -15,7 +15,7 @@ import android.view.animation.Interpolator;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 
 import io.reactivex.subjects.PublishSubject;
 

@@ -11,6 +11,7 @@ import com.stardust.theme.ThemeColorManager;
 
 import org.autojs.autojs.autojs.key.GlobalKeyObserver;
 import org.autojs.autojs.theme.ThemeColorManagerCompat;
+import org.autojs.autojs4.R;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;

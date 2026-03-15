@@ -1,6 +1,5 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion versions.compile
@@ -9,12 +8,11 @@ android {
     defaultConfig {
         minSdkVersion versions.mini
         targetSdkVersion versions.target
-        versionCode 1
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -22,12 +20,21 @@ android {
         }
     }
 
-
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
-    lintOptions {
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    namespace 'com.stardust.autojs'
+    lint {
         abortOnError false
     }
 }
@@ -59,8 +66,6 @@ dependencies {
     api 'com.squareup.okhttp3:okhttp:3.10.0'
     // JDeferred
     api 'org.jdeferred:jdeferred-android-aar:1.2.6'
-    //RootShell
-    api 'com.github.Stericson:RootShell:1.6'
     // Gson
     api 'com.google.code.gson:gson:2.8.2'
     // log4j

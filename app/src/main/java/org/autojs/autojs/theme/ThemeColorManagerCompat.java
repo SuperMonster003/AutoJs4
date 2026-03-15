@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatDelegate;
 
 import com.stardust.app.GlobalAppContext;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 
 import com.stardust.theme.ThemeColor;
 import com.stardust.theme.ThemeColorManager;

@@ -1,6 +1,5 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion versions.compile
@@ -15,15 +14,20 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }
-    lintOptions {
-        abortOnError false
-        disable 'MissingTranslation'
-        disable 'ExtraTranslation'
-    }
+
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
     splits {
 
         // Configures multiple APKs based on ABI.
@@ -54,6 +58,11 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    namespace 'com.stardust.auojs.inrt'
+    lint {
+        abortOnError false
+        disable 'MissingTranslation', 'ExtraTranslation'
     }
 }
 

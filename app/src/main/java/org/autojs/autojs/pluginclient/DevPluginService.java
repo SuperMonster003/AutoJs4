@@ -16,7 +16,7 @@ import com.google.gson.JsonPrimitive;
 import com.stardust.app.GlobalAppContext;
 import com.stardust.util.MapBuilder;
 
-import org.autojs.autojs.BuildConfig;
+import org.autojs.autojs4.BuildConfig;
 
 import java.io.File;
 import java.net.SocketTimeoutException;

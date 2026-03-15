@@ -16,7 +16,7 @@ import com.stardust.pio.PFiles;
 import com.stardust.util.MD5;
 
 import org.autojs.autojs.Pref;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.autojs.AutoJs;
 import org.autojs.autojs.model.script.Scripts;
 

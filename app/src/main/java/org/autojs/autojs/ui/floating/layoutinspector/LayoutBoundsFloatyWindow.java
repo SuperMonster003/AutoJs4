@@ -11,7 +11,7 @@ import com.afollestad.materialdialogs.Theme;
 import com.stardust.app.DialogUtils;
 import com.stardust.enhancedfloaty.FloatyService;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.ui.codegeneration.CodeGenerateDialog;
 import org.autojs.autojs.ui.floating.FloatyWindowManger;
 import org.autojs.autojs.ui.floating.FullScreenFloatyWindow;

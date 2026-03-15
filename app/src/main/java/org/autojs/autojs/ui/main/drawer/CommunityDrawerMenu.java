@@ -2,7 +2,7 @@ package org.autojs.autojs.ui.main.drawer;
 
 import android.annotation.SuppressLint;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.network.UserService;
 import org.autojs.autojs.network.entity.notification.Notification;
 import org.autojs.autojs.ui.main.community.CommunityFragment;

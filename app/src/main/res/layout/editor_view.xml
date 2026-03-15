@@ -3,6 +3,7 @@
               xmlns:app="http://schemas.android.com/apk/res-auto"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
+              xmlns:tools="http://schemas.android.com/tools"
               android:orientation="vertical">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -87,6 +88,7 @@
                 android:id="@+id/functions_keyboard"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                tools:visibility="visible"
                 android:visibility="gone"/>
 
 

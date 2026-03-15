@@ -19,7 +19,7 @@ import android.widget.ImageView;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.tool.BitmapTool;
 import org.autojs.autojs.ui.BaseActivity;
 import org.autojs.autojs.workground.WrapContentGridLayoutManger;

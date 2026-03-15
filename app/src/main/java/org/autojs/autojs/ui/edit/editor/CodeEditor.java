@@ -10,7 +10,7 @@ import android.widget.Toast;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.stardust.autojs.script.JsBeautifier;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.ui.edit.theme.Theme;
 
 import com.stardust.util.ClipboardUtil;
@@ -132,7 +132,6 @@ public class CodeEditor extends HVScrollView {
         if (line < 0 || line >= mCodeEditText.getLayout().getLineCount())
             return;
         mCodeEditText.setSelection(mCodeEditText.getLayout().getLineEnd(line) - 1);
-
     }
 
     public void setTheme(Theme theme) {

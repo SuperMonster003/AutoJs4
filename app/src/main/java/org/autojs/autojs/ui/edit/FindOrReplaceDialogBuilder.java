@@ -2,15 +2,16 @@ package org.autojs.autojs.ui.edit;
 
 import android.content.Context;
 import android.preference.PreferenceManager;
-import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
+import androidx.annotation.NonNull;
+
 import com.afollestad.materialdialogs.MaterialDialog;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.theme.dialog.ThemeColorMaterialDialogBuilder;
 import org.autojs.autojs.ui.edit.editor.CodeEditor;
 

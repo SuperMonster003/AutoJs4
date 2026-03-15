@@ -2,7 +2,6 @@ package org.autojs.autojs.ui.filechooser;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
-import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,15 +9,18 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.SimpleItemAnimator;
+
 import com.stardust.pio.PFile;
 import com.stardust.pio.PFiles;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.model.explorer.ExplorerItem;
 import org.autojs.autojs.model.explorer.ExplorerPage;
 import org.autojs.autojs.model.script.ScriptFile;
-import org.autojs.autojs.ui.explorer.ExplorerViewHelper;
 import org.autojs.autojs.ui.explorer.ExplorerView;
+import org.autojs.autojs.ui.explorer.ExplorerViewHelper;
 import org.autojs.autojs.ui.widget.BindableViewHolder;
 import org.autojs.autojs.ui.widget.CheckBoxCompat;
 
@@ -27,7 +29,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import androidx.recyclerview.widget.SimpleItemAnimator;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnCheckedChanged;

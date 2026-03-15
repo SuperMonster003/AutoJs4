@@ -14,10 +14,10 @@ import android.widget.Toast;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 
-import org.autojs.autojs.BuildConfig;
+import org.autojs.autojs4.BuildConfig;
 import org.autojs.autojs.ui.BaseActivity;
 import org.autojs.autojs.theme.dialog.ThemeColorMaterialDialogBuilder;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 
 import java.util.Locale;
 import java.util.Timer;

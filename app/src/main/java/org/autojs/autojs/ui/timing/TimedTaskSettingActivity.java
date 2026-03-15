@@ -43,7 +43,7 @@ import org.androidannotations.annotations.CheckedChange;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.external.ScriptIntents;
 import org.autojs.autojs.external.receiver.DynamicBroadcastReceivers;
 import org.autojs.autojs.model.script.ScriptFile;

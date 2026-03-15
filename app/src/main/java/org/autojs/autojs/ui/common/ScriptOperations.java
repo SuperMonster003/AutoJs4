@@ -23,7 +23,7 @@ import com.stardust.pio.UncheckedIOException;
 import com.tencent.bugly.crashreport.BuglyLog;
 
 import org.autojs.autojs.Pref;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.external.ScriptIntents;
 import org.autojs.autojs.model.explorer.Explorer;
 import org.autojs.autojs.model.explorer.ExplorerDirPage;

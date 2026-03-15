@@ -11,8 +11,8 @@ import org.autojs.autojs.theme.dialog.ThemeColorMaterialDialogBuilder;
 import com.stardust.util.IntentUtil;
 import com.tencent.bugly.crashreport.CrashReport;
 
-import org.autojs.autojs.BuildConfig;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.BuildConfig;
+import org.autojs.autojs4.R;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;

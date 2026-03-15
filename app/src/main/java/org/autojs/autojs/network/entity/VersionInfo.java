@@ -3,7 +3,7 @@ package org.autojs.autojs.network.entity;
 import android.text.TextUtils;
 
 
-import org.autojs.autojs.BuildConfig;
+import org.autojs.autojs4.BuildConfig;
 
 import org.json.JSONObject;
 

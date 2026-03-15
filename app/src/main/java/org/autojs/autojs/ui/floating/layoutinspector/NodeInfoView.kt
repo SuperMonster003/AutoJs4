@@ -14,7 +14,7 @@ import com.stardust.util.ClipboardUtil
 import com.stardust.util.sortedArrayOf
 import com.stardust.view.accessibility.NodeInfo
 import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration
-import org.autojs.autojs.R
+import org.autojs.autojs4.R
 import java.lang.reflect.Field
 
 /**
@@ -96,7 +96,6 @@ class NodeInfoView : RecyclerView {
 
     internal inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-        @BindView(R.id.name)
         val attrName: TextView = itemView.findViewById(R.id.name)
 
         val attrValue: TextView = itemView.findViewById(R.id.value)

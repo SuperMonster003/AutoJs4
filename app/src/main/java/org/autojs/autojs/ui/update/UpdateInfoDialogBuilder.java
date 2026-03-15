@@ -17,9 +17,9 @@ import android.widget.Toast;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.stardust.util.IntentUtil;
 
-import org.autojs.autojs.BuildConfig;
+import org.autojs.autojs4.BuildConfig;
 import org.autojs.autojs.Pref;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.external.fileprovider.AppFileProvider;
 import org.autojs.autojs.network.download.DownloadManager;
 import org.autojs.autojs.network.entity.VersionInfo;

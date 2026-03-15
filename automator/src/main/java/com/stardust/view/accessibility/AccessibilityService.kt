@@ -32,11 +32,11 @@ open class AccessibilityService : android.accessibilityservice.AccessibilityServ
     private var mFastRootInActiveWindow: AccessibilityNodeInfo? = null
     private val eventExecutor: ExecutorService
         get() {
-            return mEventExecutor ?: {
+            return mEventExecutor ?: run {
                 val executor = Executors.newSingleThreadExecutor()
                 mEventExecutor = executor
                 executor
-            }()
+            }
         }
 
     override fun onAccessibilityEvent(event: AccessibilityEvent) {

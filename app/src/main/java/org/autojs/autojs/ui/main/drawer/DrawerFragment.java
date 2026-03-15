@@ -30,7 +30,7 @@ import com.stardust.app.GlobalAppContext;
 import com.stardust.notification.NotificationListenerService;
 
 import org.autojs.autojs.Pref;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.external.foreground.ForegroundService;
 import org.autojs.autojs.network.UserService;
 import org.autojs.autojs.tool.Observers;

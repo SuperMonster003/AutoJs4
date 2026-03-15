@@ -45,5 +45,4 @@ public class Plugins {
     public void clear() {
         PFiles.deleteRecursively(mPluginCacheDir);
     }
-
 }

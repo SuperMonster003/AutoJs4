@@ -5,10 +5,8 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
-
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 
 /**
  * Created by Stardust on 2017/3/10.

@@ -25,6 +25,7 @@ class ScriptCanvasView(context: Context, private val mScriptRuntime: ScriptRunti
     private var mDrawing = true
     private val mEventEmitter: EventEmitter = EventEmitter(mScriptRuntime.bridges)
     private var mDrawingThreadPool: ExecutorService? = null
+
     @Volatile
     private var mTimePerDraw = (1000 / 30).toLong()
 
@@ -57,7 +58,7 @@ class ScriptCanvasView(context: Context, private val mScriptRuntime: ScriptRunti
                         canvas = lockCanvas()
                         scriptCanvas.setCanvas(canvas)
                         emit("draw", scriptCanvas, this@ScriptCanvasView)
-                        unlockCanvasAndPost(canvas)
+                        canvas?.let { unlockCanvasAndPost(it) }
                         canvas = null
                         val dt = mTimePerDraw - (SystemClock.uptimeMillis() - time)
                         if (dt > 0) {

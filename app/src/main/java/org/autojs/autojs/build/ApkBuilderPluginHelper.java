@@ -6,7 +6,7 @@ import android.content.pm.PackageManager;
 
 import com.stardust.pio.UncheckedIOException;
 
-import org.autojs.autojs.BuildConfig;
+import org.autojs.autojs4.BuildConfig;
 
 import com.stardust.util.DeveloperUtils;
 

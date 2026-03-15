@@ -39,7 +39,7 @@ import com.heinrichreimersoftware.androidissuereporter.util.ColorUtils;
 import com.heinrichreimersoftware.androidissuereporter.util.ThemeUtils;
 import com.stardust.theme.ThemeColorManager;
 
-import org.autojs.autojs.BuildConfig;
+import org.autojs.autojs4.BuildConfig;
 import org.autojs.autojs.ui.BaseActivity;
 import org.eclipse.egit.github.core.Issue;
 import org.eclipse.egit.github.core.client.GitHubClient;
@@ -105,7 +105,7 @@ public abstract class AbstractIssueReporterActivity extends BaseActivity {
         if (TextUtils.isEmpty(getTitle()))
             setTitle(R.string.air_title_report_issue);
 
-        setContentView(org.autojs.autojs.R.layout.air_activity_issue_reporter);
+        setContentView(org.autojs.autojs4.R.layout.air_activity_issue_reporter);
         findViews();
 
         //noinspection deprecation
@@ -168,7 +168,7 @@ public abstract class AbstractIssueReporterActivity extends BaseActivity {
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle(org.autojs.autojs.R.string.text_issue_report);
+            actionBar.setTitle(org.autojs.autojs4.R.string.text_issue_report);
         }
         toolbar.setBackgroundColor(ThemeColorManager.getColorPrimary());
 
@@ -401,9 +401,9 @@ public abstract class AbstractIssueReporterActivity extends BaseActivity {
     public void finish() {
         if (mCrash) {
             if (!mReportFailed) {
-                Toast.makeText(this, org.autojs.autojs.R.string.text_report_succeed, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, org.autojs.autojs4.R.string.text_report_succeed, Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(this, org.autojs.autojs.R.string.text_report_fail, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, org.autojs.autojs4.R.string.text_report_fail, Toast.LENGTH_SHORT).show();
             }
             finishAffinity();
         } else {

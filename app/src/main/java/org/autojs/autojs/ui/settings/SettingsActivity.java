@@ -16,7 +16,7 @@ import com.stardust.util.MapBuilder;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.ui.BaseActivity;
 import org.autojs.autojs.ui.error.IssueReporterActivity;
 import org.autojs.autojs.ui.update.UpdateCheckDialog;
@@ -127,7 +127,7 @@ public class SettingsActivity extends BaseActivity {
                     .setNotices(R.raw.licenses)
                     .setIncludeOwnLicense(true)
                     .build()
-                    .showAppCompat();
+                    .show();
         }
 
         public static class MozillaPublicLicense20 extends License {

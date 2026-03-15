@@ -1,27 +1,25 @@
 package org.autojs.autojs
 
 import android.annotation.SuppressLint
-import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
 import android.net.Uri
-import androidx.multidex.MultiDexApplication
 import android.view.View
 import android.widget.ImageView
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
+import androidx.multidex.MultiDexApplication
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.SimpleTarget
 import com.bumptech.glide.request.transition.Transition
-import com.evernote.android.job.JobRequest
 import com.flurry.android.FlurryAgent
-import com.squareup.leakcanary.LeakCanary
 import com.stardust.app.GlobalAppContext
 import com.stardust.autojs.core.ui.inflater.ImageLoader
 import com.stardust.autojs.core.ui.inflater.util.Drawables
 import com.stardust.theme.ThemeColor
 import com.tencent.bugly.Bugly
 import com.tencent.bugly.crashreport.CrashReport
+import org.autojs.autojs4.BuildConfig.*
 import org.autojs.autojs.autojs.AutoJs
 import org.autojs.autojs.autojs.key.GlobalKeyObserver
 import org.autojs.autojs.external.receiver.DynamicBroadcastReceivers
@@ -30,6 +28,7 @@ import org.autojs.autojs.timing.TimedTaskManager
 import org.autojs.autojs.timing.TimedTaskScheduler
 import org.autojs.autojs.tool.CrashHandler
 import org.autojs.autojs.ui.error.ErrorReportActivity
+import org.autojs.autojs4.R
 import java.lang.ref.WeakReference
 import java.util.*
 
@@ -51,10 +50,10 @@ class App : MultiDexApplication() {
     }
 
     private fun setUpStaticsTool() {
-        if (BuildConfig.DEBUG)
+        if (DEBUG)
             return
         FlurryAgent.Builder()
-                .withLogEnabled(BuildConfig.DEBUG)
+                .withLogEnabled(DEBUG)
                 .build(this, "D42MH48ZN4PJC5TKNYZD")
     }
 
@@ -69,13 +68,6 @@ class App : MultiDexApplication() {
 
         crashHandler.setBuglyHandler(Thread.getDefaultUncaughtExceptionHandler())
         Thread.setDefaultUncaughtExceptionHandler(crashHandler)
-        if (LeakCanary.isInAnalyzerProcess(this)) {
-            // This process is dedicated to LeakCanary for heap analysis.
-            // You should not init your app in this process.
-            return
-        }
-        //LeakCanary.install(this);
-
     }
 
     private fun init() {

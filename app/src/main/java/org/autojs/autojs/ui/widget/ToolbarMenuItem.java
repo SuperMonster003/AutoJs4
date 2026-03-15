@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 
 /**
  * Created by Stardust on 2017/1/29.

@@ -6,7 +6,7 @@ import com.bignerdranch.expandablerecyclerview.model.Parent;
 import com.stardust.autojs.engine.ScriptEngine;
 import com.stardust.autojs.execution.ScriptExecution;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.autojs.AutoJs;
 import org.autojs.autojs.timing.IntentTask;
 import org.autojs.autojs.timing.TimedTask;

@@ -12,7 +12,7 @@ import android.webkit.WebView;
 import android.widget.Toast;
 
 import org.autojs.autojs.Pref;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.network.NodeBB;
 import org.autojs.autojs.model.script.Scripts;
 import org.autojs.autojs.network.download.DownloadManager;

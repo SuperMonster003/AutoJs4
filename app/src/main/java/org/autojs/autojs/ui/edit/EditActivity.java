@@ -23,7 +23,7 @@ import com.stardust.autojs.core.permission.RequestPermissionCallbacks;
 import com.stardust.autojs.execution.ScriptExecution;
 import com.stardust.pio.PFiles;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.storage.file.TmpScriptFiles;
 import org.autojs.autojs.tool.Observers;
 import org.autojs.autojs.ui.BaseActivity;

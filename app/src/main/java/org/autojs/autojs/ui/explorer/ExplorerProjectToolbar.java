@@ -1,17 +1,18 @@
 package org.autojs.autojs.ui.explorer;
 
 import android.content.Context;
-import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import android.util.AttributeSet;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 
 import com.stardust.autojs.project.ProjectConfig;
 import com.stardust.autojs.project.ProjectLauncher;
 import com.stardust.pio.PFile;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.autojs.AutoJs;
 import org.autojs.autojs.model.explorer.ExplorerChangeEvent;
 import org.autojs.autojs.model.explorer.ExplorerItem;

@@ -5,11 +5,11 @@ import android.widget.Toast;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.stardust.app.GlobalAppContext;
-import org.autojs.autojs.App;
-import org.autojs.autojs.R;
+
 import org.autojs.autojs.network.VersionService;
 import org.autojs.autojs.network.entity.VersionInfo;
 import org.autojs.autojs.tool.SimpleObserver;
+import org.autojs.autojs4.R;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.annotations.NonNull;

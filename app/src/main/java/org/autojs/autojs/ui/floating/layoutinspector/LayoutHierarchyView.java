@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import com.stardust.view.accessibility.NodeInfo;
 import com.stardust.util.ViewUtil;
 import org.autojs.autojs.ui.widget.LevelBeamView;

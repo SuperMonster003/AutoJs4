@@ -1,13 +1,14 @@
 package org.autojs.autojs.ui.main.drawer;
 
-import android.content.pm.PackageManager;
+import static android.view.View.GONE;
+import static android.view.View.VISIBLE;
+
 import android.view.View;
-import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.ui.widget.BindableViewHolder;
 import org.autojs.autojs.ui.widget.PrefSwitch;
 import org.autojs.autojs.ui.widget.SwitchCompat;
@@ -15,9 +16,6 @@ import org.autojs.autojs.ui.widget.SwitchCompat;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import me.zhanghai.android.materialprogressbar.MaterialProgressBar;
-
-import static android.view.View.GONE;
-import static android.view.View.VISIBLE;
 
 /**
  * Created by Stardust on 2017/12/10.

@@ -16,7 +16,7 @@ import com.stardust.enhancedfloaty.FloatyService;
 import com.stardust.enhancedfloaty.FloatyWindow;
 
 import org.autojs.autojs.Pref;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.autojs.AutoJs;
 import org.autojs.autojs.autojs.record.GlobalActionRecorder;
 import org.autojs.autojs.model.explorer.ExplorerDirPage;

@@ -1,6 +1,5 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion versions.compile
@@ -9,8 +8,6 @@ android {
     defaultConfig {
         minSdkVersion versions.mini
         targetSdkVersion versions.target
-        versionCode 1
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -22,7 +19,23 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    lintOptions {
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+        encoding = 'utf-8'
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    namespace 'com.stardust'
+    lint {
         abortOnError false
     }
 }
@@ -32,7 +45,11 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     testImplementation 'junit:junit:4.12'
+
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     api 'androidx.annotation:annotation:1.0.0'
     api 'com.github.hyb1996:settingscompat:1.1.5'
+
+    api project(':libs:apk-builder-1.0.3')
+    api project(':libs:root-shell-1.6')
 }

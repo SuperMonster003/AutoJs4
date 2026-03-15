@@ -5,12 +5,13 @@ import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.RemoteViews;
 
 import com.stardust.pio.PFiles;
-import org.autojs.autojs.R;
+import org.autojs.autojs4.R;
 import org.autojs.autojs.external.ScriptIntents;
 import org.autojs.autojs.external.open.RunIntentActivity;
 
@@ -23,7 +24,7 @@ import java.util.Set;
 
 public class ScriptWidget extends AppWidgetProvider {
 
-    private static final String LOG_TAG = "ScriptWidget";
+    private static final String TAG = "ScriptWidget";
 
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
@@ -37,13 +38,37 @@ public class ScriptWidget extends AppWidgetProvider {
             ScriptWidgets.removeAllNotIn(appWidgetIdSet);
     }
 
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        super.onReceive(context, intent);
+        Log.d(TAG, "onReceive");
+    }
+
+    @Override
+    public void onEnabled(Context context) {
+        super.onEnabled(context);
+        Log.d(TAG, "onEnabled");
+    }
+
+    @Override
+    public void onAppWidgetOptionsChanged(Context context, AppWidgetManager appWidgetManager, int appWidgetId, Bundle newOptions) {
+        super.onAppWidgetOptionsChanged(context, appWidgetManager, appWidgetId, newOptions);
+        Log.d(TAG, "onAppWidgetOptionsChanged");
+    }
+
+    @Override
+    public void onRestored(Context context, int[] oldWidgetIds, int[] newWidgetIds) {
+        super.onRestored(context, oldWidgetIds, newWidgetIds);
+        Log.d(TAG, "onRestored");
+    }
+
     static boolean updateWidget(Context context, int widgetId, String path) {
         if (TextUtils.isEmpty(path) || widgetId == AppWidgetManager.INVALID_APPWIDGET_ID) {
             return false;
         }
         String name = PFiles.getNameWithoutExtension(path);
         int requestCode = ScriptWidgets.getRequestCodeForAppWidgetId(widgetId);
-        Log.d(LOG_TAG, "updateWidget: id = " + widgetId + ", requestCode = " + requestCode + ", path = " + path);
+        Log.d(TAG, "updateWidget: id = " + widgetId + ", requestCode = " + requestCode + ", path = " + path);
         AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget_script_shortcut);
         views.setOnClickPendingIntent(R.id.widget, PendingIntent.getActivity(context, requestCode,
