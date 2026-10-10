@@ -14,3 +14,7 @@
 *.exe
 
 /libs/**/build
+
+# Local agent instruction files stay out of the repository.
+AGENTS.md
+CLAUDE.md
