@@ -45,6 +45,8 @@ AutoJs4 同时是 [AutoJs6](http://project.autojs6.com) 的行为基准: 除少�
 
 [AutoJs4-Documentation](https://github.com/SuperMonster003/AutoJs4-Documentation) 与 [AutoJs6-Documentation](http://docs-project.autojs6.com) 的关系与此类似, 前者保留 Auto.js `4.1.0` 文档的最终源码, 并作为后者的参考基准.
 
+[AutoJs6-Plugin-AutoJs4-Runtime](https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime) 以 Git submodule 的方式内嵌本项目的引擎模块 (`autojs`, `common`, `automator`), 使 AutoJs6 的文件管理器可以通过 "使用 AutoJs4 运行" 直接以 AutoJs4 引擎运行脚本并对照结果, 无需另外安装 AutoJs4.
+
 下表列出了上述项目及其相互关系, 可直接跳转:
 
 | 项目 | 说明 | 相关链接 |
@@ -53,6 +55,7 @@ AutoJs4 同时是 [AutoJs6](http://project.autojs6.com) 的行为基准: 除少�
 | [AutoJs4](https://github.com/SuperMonster003/AutoJs4) | Auto.js `4.1.1 Alpha2` 的克隆项目, 保留原始源码并作为 AutoJs6 的行为基准 (当前项目) | [文档项目](https://github.com/SuperMonster003/AutoJs4-Documentation) |
 | [AutoJs6-Documentation](http://docs-project.autojs6.com) | AutoJs6 应用文档, 在线站点与离线文档插件共用同一内容源 | [应用项目](http://project.autojs6.com) / [在线阅读](https://docs.autojs6.com) |
 | [AutoJs4-Documentation](https://github.com/SuperMonster003/AutoJs4-Documentation) | Auto.js `4.1.0` 文档的克隆项目, 保留原始文档并作为 AutoJs6 文档的参考基准 | [应用项目](https://github.com/SuperMonster003/AutoJs4) |
+| [AutoJs6-Plugin-AutoJs4-Runtime](https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime) | AutoJs6 插件, 内嵌 AutoJs4 引擎并在独立进程中运行脚本, 用于对照 AutoJs6 的运行结果 | [宿主项目](http://project.autojs6.com) |
 
 <details>
 <summary>Related Projects (English)</summary>
@@ -63,6 +66,8 @@ AutoJs4 also serves as the behavioral baseline of [AutoJs6](http://project.autoj
 
 [AutoJs4-Documentation](https://github.com/SuperMonster003/AutoJs4-Documentation) and [AutoJs6-Documentation](http://docs-project.autojs6.com) have a similar relationship: the former preserves the final source of the Auto.js `4.1.0` documentation and serves as the reference baseline of the latter.
 
+[AutoJs6-Plugin-AutoJs4-Runtime](https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime) embeds the engine modules of this project (`autojs`, `common`, `automator`) as a Git submodule, so that the AutoJs6 file manager can run a script with the AutoJs4 engine through "Run with AutoJs4" and compare the results without installing AutoJs4 separately.
+
 The table below lists these projects and how they relate to each other, with direct links:
 
 | Project | Description | Links |
@@ -71,6 +76,7 @@ The table below lists these projects and how they relate to each other, with dir
 | [AutoJs4](https://github.com/SuperMonster003/AutoJs4) | Clone of Auto.js `4.1.1 Alpha2`, preserving the original source and serving as the behavioral baseline of AutoJs6 (current project) | [Documentation project](https://github.com/SuperMonster003/AutoJs4-Documentation) |
 | [AutoJs6-Documentation](http://docs-project.autojs6.com) | AutoJs6 application documentation; the online site and the offline documentation plugin share the same content source | [Application project](http://project.autojs6.com) / [Read online](https://docs.autojs6.com) |
 | [AutoJs4-Documentation](https://github.com/SuperMonster003/AutoJs4-Documentation) | Clone of the Auto.js `4.1.0` documentation, preserving the original documents and serving as the reference baseline of the AutoJs6 documentation | [Application project](https://github.com/SuperMonster003/AutoJs4) |
+| [AutoJs6-Plugin-AutoJs4-Runtime](https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime) | AutoJs6 plugin that embeds the AutoJs4 engine and runs scripts in a separate process to compare results with AutoJs6 | [Host project](http://project.autojs6.com) |
 
 </details>
 
