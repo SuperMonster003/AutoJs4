@@ -1,0 +1,68 @@
+{
+  "labels": {
+    "hint": "ヒント",
+    "feature": "機能",
+    "fix": "修正",
+    "improvement": "改善",
+    "dependency": "依存関係"
+  },
+  "$data": {
+    "v4.4.0": {
+      "released_date": "2026/03/15",
+      "entries": [
+        {
+          "category": "improvement",
+          "text": "ホーム画面の強制更新ダイアログを削除"
+        },
+        {
+          "category": "improvement",
+          "text": "arm64-v8a CPU アーキテクチャの端末へのインストールに対応"
+        },
+        {
+          "category": "dependency",
+          "text": "Auto.js APK Builder バージョン 1.0.3 をローカルに導入"
+        },
+        {
+          "category": "dependency",
+          "text": "Root Shell バージョン 1.6 をローカルに導入"
+        },
+        {
+          "category": "dependency",
+          "text": "SwipeRefreshLayout バージョン 1.1.0 を追加"
+        },
+        {
+          "category": "dependency",
+          "text": "Java バージョンを 8 -> 17 に更新"
+        },
+        {
+          "category": "dependency",
+          "text": "Gradle バージョンを 4.10.2 -> 8.14.3 に更新"
+        },
+        {
+          "category": "dependency",
+          "text": "KotlinX Coroutines バージョンを 1.0.1 -> 1.6.2 に更新"
+        },
+        {
+          "category": "dependency",
+          "text": "Android Annotations バージョンを 4.5.2 -> 4.8.0 に更新"
+        },
+        {
+          "category": "dependency",
+          "text": "ButterKnife Gradle プラグイン バージョンを 9.0.0-rc2 -> 10.2.3 に更新"
+        },
+        {
+          "category": "dependency",
+          "text": "Apache Commons バージョンを 3.3.6 -> 3.12.0 に更新"
+        },
+        {
+          "category": "dependency",
+          "text": "Android Analytics バージョンを 7.0.0 -> 14.2.0 に更新"
+        },
+        {
+          "category": "dependency",
+          "text": "CrashReport バージョンを 2.6.6 -> 4.0.4 に更新"
+        }
+      ]
+    }
+  }
+}

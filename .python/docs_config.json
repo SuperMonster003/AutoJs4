@@ -1,0 +1,7 @@
+{
+  "versioned": false,
+  "changelog_aliases": {},
+  "app_version_file": "project-versions.json",
+  "recent_history_limit": 1,
+  "collapse_readme_dependencies": true
+}

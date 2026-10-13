@@ -1,0 +1,68 @@
+{
+  "labels": {
+    "hint": "안내",
+    "feature": "기능",
+    "fix": "수정",
+    "improvement": "개선",
+    "dependency": "의존성"
+  },
+  "$data": {
+    "v4.4.0": {
+      "released_date": "2026/03/15",
+      "entries": [
+        {
+          "category": "improvement",
+          "text": "홈 화면의 강제 업데이트 대화상자 제거"
+        },
+        {
+          "category": "improvement",
+          "text": "arm64-v8a CPU 아키텍처 기기 설치 지원"
+        },
+        {
+          "category": "dependency",
+          "text": "Auto.js APK Builder 버전 1.0.3 로컬 통합"
+        },
+        {
+          "category": "dependency",
+          "text": "Root Shell 버전 1.6 로컬 통합"
+        },
+        {
+          "category": "dependency",
+          "text": "SwipeRefreshLayout 버전 1.1.0 추가"
+        },
+        {
+          "category": "dependency",
+          "text": "Java 버전 8 -> 17 업그레이드"
+        },
+        {
+          "category": "dependency",
+          "text": "Gradle 버전 4.10.2 -> 8.14.3 업그레이드"
+        },
+        {
+          "category": "dependency",
+          "text": "KotlinX Coroutines 버전 1.0.1 -> 1.6.2 업그레이드"
+        },
+        {
+          "category": "dependency",
+          "text": "Android Annotations 버전 4.5.2 -> 4.8.0 업그레이드"
+        },
+        {
+          "category": "dependency",
+          "text": "ButterKnife Gradle 플러그인 버전 9.0.0-rc2 -> 10.2.3 업그레이드"
+        },
+        {
+          "category": "dependency",
+          "text": "Apache Commons 버전 3.3.6 -> 3.12.0 업그레이드"
+        },
+        {
+          "category": "dependency",
+          "text": "Android Analytics 버전 7.0.0 -> 14.2.0 업그레이드"
+        },
+        {
+          "category": "dependency",
+          "text": "CrashReport 버전 2.6.6 -> 4.0.4 업그레이드"
+        }
+      ]
+    }
+  }
+}

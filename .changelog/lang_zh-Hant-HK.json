@@ -1,0 +1,68 @@
+{
+  "labels": {
+    "hint": "提示",
+    "feature": "新增",
+    "fix": "修復",
+    "improvement": "優化",
+    "dependency": "依賴"
+  },
+  "$data": {
+    "v4.4.0": {
+      "released_date": "2026/03/15",
+      "entries": [
+        {
+          "category": "improvement",
+          "text": "主頁不再顯示強制更新對話框"
+        },
+        {
+          "category": "improvement",
+          "text": "應用支援 arm64-v8a CPU 架構裝置安裝"
+        },
+        {
+          "category": "dependency",
+          "text": "本地化 Auto.js APK Builder 版本 1.0.3"
+        },
+        {
+          "category": "dependency",
+          "text": "本地化 Root Shell 版本 1.6"
+        },
+        {
+          "category": "dependency",
+          "text": "附加 SwipeRefreshLayout 版本 1.1.0"
+        },
+        {
+          "category": "dependency",
+          "text": "升級 Java 版本 8 -> 17"
+        },
+        {
+          "category": "dependency",
+          "text": "升級 Gradle 版本 4.10.2 -> 8.14.3"
+        },
+        {
+          "category": "dependency",
+          "text": "升級 KotlinX Coroutines 版本 1.0.1 -> 1.6.2"
+        },
+        {
+          "category": "dependency",
+          "text": "升級 Android Annotations 版本 4.5.2 -> 4.8.0"
+        },
+        {
+          "category": "dependency",
+          "text": "升級 ButterKnife Gradle 插件 版本 9.0.0-rc2 -> 10.2.3"
+        },
+        {
+          "category": "dependency",
+          "text": "升級 Apache Commons 版本 3.3.6 -> 3.12.0"
+        },
+        {
+          "category": "dependency",
+          "text": "升級 Android Analytics 版本 7.0.0 -> 14.2.0"
+        },
+        {
+          "category": "dependency",
+          "text": "升級 CrashReport 版本 2.6.6 -> 4.0.4"
+        }
+      ]
+    }
+  }
+}

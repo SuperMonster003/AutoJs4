@@ -1,0 +1,68 @@
+{
+  "labels": {
+    "hint": "Примечание",
+    "feature": "Функция",
+    "fix": "Исправление",
+    "improvement": "Улучшение",
+    "dependency": "Зависимость"
+  },
+  "$data": {
+    "v4.4.0": {
+      "released_date": "2026/03/15",
+      "entries": [
+        {
+          "category": "improvement",
+          "text": "Удален диалог обязательного обновления на главной странице"
+        },
+        {
+          "category": "improvement",
+          "text": "Добавлена установка на устройствах с архитектурой CPU arm64-v8a"
+        },
+        {
+          "category": "dependency",
+          "text": "Локально включена библиотека Auto.js APK Builder версии 1.0.3"
+        },
+        {
+          "category": "dependency",
+          "text": "Локально включена библиотека Root Shell версии 1.6"
+        },
+        {
+          "category": "dependency",
+          "text": "Добавлена зависимость SwipeRefreshLayout версии 1.1.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Обновлена зависимость Java, версия 8 -> 17"
+        },
+        {
+          "category": "dependency",
+          "text": "Обновлена зависимость Gradle, версия 4.10.2 -> 8.14.3"
+        },
+        {
+          "category": "dependency",
+          "text": "Обновлена зависимость KotlinX Coroutines, версия 1.0.1 -> 1.6.2"
+        },
+        {
+          "category": "dependency",
+          "text": "Обновлена зависимость Android Annotations, версия 4.5.2 -> 4.8.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Обновлена зависимость ButterKnife Gradle (плагин), версия 9.0.0-rc2 -> 10.2.3"
+        },
+        {
+          "category": "dependency",
+          "text": "Обновлена зависимость Apache Commons, версия 3.3.6 -> 3.12.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Обновлена зависимость Android Analytics, версия 7.0.0 -> 14.2.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Обновлена зависимость CrashReport, версия 2.6.6 -> 4.0.4"
+        }
+      ]
+    }
+  }
+}

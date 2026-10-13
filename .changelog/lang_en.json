@@ -1,0 +1,68 @@
+{
+  "labels": {
+    "hint": "Hint",
+    "feature": "Feature",
+    "fix": "Fix",
+    "improvement": "Improvement",
+    "dependency": "Dependency"
+  },
+  "$data": {
+    "v4.4.0": {
+      "released_date": "2026/03/15",
+      "entries": [
+        {
+          "category": "improvement",
+          "text": "Removed the mandatory update dialog from the home page"
+        },
+        {
+          "category": "improvement",
+          "text": "Added installation support for devices with the arm64-v8a CPU architecture"
+        },
+        {
+          "category": "dependency",
+          "text": "Localized Auto.js APK Builder version 1.0.3"
+        },
+        {
+          "category": "dependency",
+          "text": "Localized Root Shell version 1.6"
+        },
+        {
+          "category": "dependency",
+          "text": "Added SwipeRefreshLayout version 1.1.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Upgraded Java version 8 -> 17"
+        },
+        {
+          "category": "dependency",
+          "text": "Upgraded Gradle version 4.10.2 -> 8.14.3"
+        },
+        {
+          "category": "dependency",
+          "text": "Upgraded KotlinX Coroutines version 1.0.1 -> 1.6.2"
+        },
+        {
+          "category": "dependency",
+          "text": "Upgraded Android Annotations version 4.5.2 -> 4.8.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Upgraded ButterKnife Gradle plugin version 9.0.0-rc2 -> 10.2.3"
+        },
+        {
+          "category": "dependency",
+          "text": "Upgraded Apache Commons version 3.3.6 -> 3.12.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Upgraded Android Analytics version 7.0.0 -> 14.2.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Upgraded CrashReport version 2.6.6 -> 4.0.4"
+        }
+      ]
+    }
+  }
+}

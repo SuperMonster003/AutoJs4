@@ -1,0 +1,68 @@
+{
+  "labels": {
+    "hint": "Note",
+    "feature": "Fonctionnalité",
+    "fix": "Correction",
+    "improvement": "Amélioration",
+    "dependency": "Dépendance"
+  },
+  "$data": {
+    "v4.4.0": {
+      "released_date": "2026/03/15",
+      "entries": [
+        {
+          "category": "improvement",
+          "text": "Suppression du dialogue de mise à jour obligatoire sur la page d'accueil"
+        },
+        {
+          "category": "improvement",
+          "text": "Prise en charge de l'installation sur les appareils dotés d'une architecture CPU arm64-v8a"
+        },
+        {
+          "category": "dependency",
+          "text": "Intégration locale de Auto.js APK Builder version 1.0.3"
+        },
+        {
+          "category": "dependency",
+          "text": "Intégration locale de Root Shell version 1.6"
+        },
+        {
+          "category": "dependency",
+          "text": "Ajout de SwipeRefreshLayout version 1.1.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Mise à niveau de Java version 8 -> 17"
+        },
+        {
+          "category": "dependency",
+          "text": "Mise à niveau de Gradle version 4.10.2 -> 8.14.3"
+        },
+        {
+          "category": "dependency",
+          "text": "Mise à niveau de KotlinX Coroutines version 1.0.1 -> 1.6.2"
+        },
+        {
+          "category": "dependency",
+          "text": "Mise à niveau de Android Annotations version 4.5.2 -> 4.8.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Mise à niveau de ButterKnife Gradle (plugin) version 9.0.0-rc2 -> 10.2.3"
+        },
+        {
+          "category": "dependency",
+          "text": "Mise à niveau de Apache Commons version 3.3.6 -> 3.12.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Mise à niveau de Android Analytics version 7.0.0 -> 14.2.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Mise à niveau de CrashReport version 2.6.6 -> 4.0.4"
+        }
+      ]
+    }
+  }
+}

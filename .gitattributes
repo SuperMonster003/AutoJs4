@@ -1,0 +1,2 @@
+# Preserve the exact archived upstream README bytes on all platforms.
+/.upstream/README.md -text

@@ -1,0 +1,68 @@
+{
+  "labels": {
+    "hint": "Nota",
+    "feature": "Función",
+    "fix": "Corrección",
+    "improvement": "Mejora",
+    "dependency": "Dependencia"
+  },
+  "$data": {
+    "v4.4.0": {
+      "released_date": "2026/03/15",
+      "entries": [
+        {
+          "category": "improvement",
+          "text": "Eliminado el diálogo de actualización obligatoria de la página de inicio"
+        },
+        {
+          "category": "improvement",
+          "text": "Añadido soporte de instalación en dispositivos con arquitectura de CPU arm64-v8a"
+        },
+        {
+          "category": "dependency",
+          "text": "Integración local de Auto.js APK Builder versión 1.0.3"
+        },
+        {
+          "category": "dependency",
+          "text": "Integración local de Root Shell versión 1.6"
+        },
+        {
+          "category": "dependency",
+          "text": "Añadido SwipeRefreshLayout versión 1.1.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Actualizado Java versión 8 -> 17"
+        },
+        {
+          "category": "dependency",
+          "text": "Actualizado Gradle versión 4.10.2 -> 8.14.3"
+        },
+        {
+          "category": "dependency",
+          "text": "Actualizado KotlinX Coroutines versión 1.0.1 -> 1.6.2"
+        },
+        {
+          "category": "dependency",
+          "text": "Actualizado Android Annotations versión 4.5.2 -> 4.8.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Actualizado ButterKnife Gradle (complemento) versión 9.0.0-rc2 -> 10.2.3"
+        },
+        {
+          "category": "dependency",
+          "text": "Actualizado Apache Commons versión 3.3.6 -> 3.12.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Actualizado Android Analytics versión 7.0.0 -> 14.2.0"
+        },
+        {
+          "category": "dependency",
+          "text": "Actualizado CrashReport versión 2.6.6 -> 4.0.4"
+        }
+      ]
+    }
+  }
+}

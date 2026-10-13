@@ -1,0 +1,68 @@
+{
+  "labels": {
+    "hint": "ملاحظة",
+    "feature": "ميزة",
+    "fix": "إصلاح",
+    "improvement": "تحسين",
+    "dependency": "اعتماد"
+  },
+  "$data": {
+    "v4.4.0": {
+      "released_date": "2026/03/15",
+      "entries": [
+        {
+          "category": "improvement",
+          "text": "إزالة مربع حوار التحديث الإلزامي من الصفحة الرئيسية"
+        },
+        {
+          "category": "improvement",
+          "text": "دعم التثبيت على الأجهزة ذات بنية CPU من نوع arm64-v8a"
+        },
+        {
+          "category": "dependency",
+          "text": "تضمين Auto.js APK Builder الإصدار 1.0.3 محليا"
+        },
+        {
+          "category": "dependency",
+          "text": "تضمين Root Shell الإصدار 1.6 محليا"
+        },
+        {
+          "category": "dependency",
+          "text": "إضافة SwipeRefreshLayout الإصدار 1.1.0"
+        },
+        {
+          "category": "dependency",
+          "text": "ترقية Java الإصدار 8 -> 17"
+        },
+        {
+          "category": "dependency",
+          "text": "ترقية Gradle الإصدار 4.10.2 -> 8.14.3"
+        },
+        {
+          "category": "dependency",
+          "text": "ترقية KotlinX Coroutines الإصدار 1.0.1 -> 1.6.2"
+        },
+        {
+          "category": "dependency",
+          "text": "ترقية Android Annotations الإصدار 4.5.2 -> 4.8.0"
+        },
+        {
+          "category": "dependency",
+          "text": "ترقية ButterKnife Gradle (إضافة) الإصدار 9.0.0-rc2 -> 10.2.3"
+        },
+        {
+          "category": "dependency",
+          "text": "ترقية Apache Commons الإصدار 3.3.6 -> 3.12.0"
+        },
+        {
+          "category": "dependency",
+          "text": "ترقية Android Analytics الإصدار 7.0.0 -> 14.2.0"
+        },
+        {
+          "category": "dependency",
+          "text": "ترقية CrashReport الإصدار 2.6.6 -> 4.0.4"
+        }
+      ]
+    }
+  }
+}
