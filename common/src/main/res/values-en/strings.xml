@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">common</string>
+    <string name="error_activity_not_found_for_apk_installing">No app was found to install APK files</string>
     <string name="text_no_floating_window_permission">No drawing overlay permission</string>
 </resources>

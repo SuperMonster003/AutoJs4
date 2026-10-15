@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ad_showing_mode_keys">
+        <item>Default</item>
+        <item>Once a day</item>
+    </string-array>
+    <string-array name="ad_types_keys">
+        <item>Random</item>
+        <item>News</item>
+        <item>Social</item>
+        <item>Anime</item>
+        <item>Games</item>
+    </string-array>
+    <string-array name="keys_documentation_source">
+        <item>Local documentation</item>
+        <item>Online documentation</item>
+    </string-array>
+    <string-array name="root_record_out_file_type_keys">
+        <item>Editable JavaScript file</item>
+        <item>Non-editable binary file</item>
+    </string-array>
+</resources>

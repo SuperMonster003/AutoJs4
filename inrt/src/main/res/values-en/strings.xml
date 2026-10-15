@@ -1,0 +1,17 @@
+<resources>
+    <string name="summary_dont_show_main_activity">Run the script immediately when the app opens</string>
+    <string name="summary_enable_accessibility_service_by_root">Automatically enable the accessibility service using Root when running scripts</string>
+    <string name="summary_stable_mode">Makes layout inspection more stable, but some scripts may not work correctly. Restart the accessibility service to apply.</string>
+    <string name="text_accessibility_service">Accessibility Service</string>
+    <string name="text_auto_operate_service_enabled_but_not_running">The accessibility service is enabled but not running. Try enabling it again or restarting the device.</string>
+    <string name="text_dont_show_main_activity">Hide the main screen</string>
+    <string name="text_enable_accessibility_service_by_root">Automatically enable the service using Root</string>
+    <string name="text_enable_accessibility_service_by_root_timeout">Failed to enable the accessibility service using Root</string>
+    <string name="text_execution_finished" formatted="false">\\n------------\\n[%s]Finished in %f seconds.</string>
+    <string name="text_no_accessibility_permission">Accessibility service is not activated</string>
+    <string name="text_others">Others</string>
+    <string name="text_script_running">Script running</string>
+    <string name="text_settings">Settings</string>
+    <string name="text_stable_mode">Stable mode</string>
+    <string name="text_use_volume_to_stop_running">Stop all scripts with the volume up key</string>
+</resources>
